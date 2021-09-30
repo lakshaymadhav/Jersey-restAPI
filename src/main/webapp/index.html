@@ -6,7 +6,12 @@
 </head>
 <body>
 <center>
-<h1>Welcome to Jersey</h1>
+<form action="rest/contacts/xss" method="post">  
+       <p>  
+        Name : <input type="text" name="name" placeholder="Enter your name" />  
+       </p>  
+       <input type="submit" value="submit" />
+       </form>  
 </center>
 </body>
 </html>
